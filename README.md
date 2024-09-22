@@ -1,0 +1,1 @@
+# plugins-woo-product-slider-and-carousel-with-category
