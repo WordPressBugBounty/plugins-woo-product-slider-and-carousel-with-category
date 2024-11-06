@@ -20,6 +20,8 @@ $tab = isset( $_GET['tab'] ) ? '#'.$_GET['tab'] : '#wcpscwc_welcome_tabs';
 	<h2  class="wpos-main-heading-tittle">Welcome to <span class="wcpscwc-blue">Product Slider and Carousel with Category for WooCommerce</span></h2>
 	<style>
 
+		.wpos-plugin-pricing-table{margin-bottom: 20px;}
+
 		/**** Solution Features CSS ****/
 		.wpos-solutions-features-page{width: 90%; margin: 0 auto; }
 		.wpos-main-heading-tittle{font-size:24px; text-align: center;}

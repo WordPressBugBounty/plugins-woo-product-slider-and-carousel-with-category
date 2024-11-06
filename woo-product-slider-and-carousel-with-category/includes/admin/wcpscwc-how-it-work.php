@@ -155,7 +155,7 @@ if( ! defined( 'ABSPATH' ) ) {
 								<li>100% Multi language</li>
 							</ul>
 							<div class="upgrade-to-pro"><?php echo sprintf( __('Gain access to <strong>Product Slider and Carousel with Category for WooCommerce</strong>', 'woo-product-slider-and-carousel-with-category') ) ?></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( WCPSCWC_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><?php esc_html_e('Try Pro For 5 Days Free', 'woo-product-slider-and-carousel-with-category'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( WCPSCWC_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'woo-product-slider-and-carousel-with-category'); ?></a>
 						</div>
 					</div>
 				</div>

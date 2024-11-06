@@ -37,7 +37,7 @@ class Wcpscwc_Admin {
 		add_submenu_page( 'wcpscwc-about', __('Solutions & Features - Woo - Product Slider/Carousel', 'woo-product-slider-and-carousel-with-category'), '<span style="color:#2ECC71">'. __('Solutions & Features', 'woo-product-slider-and-carousel-with-category').'</span>', 'manage_options', 'wcpscwc-solutions-features', array($this, 'wcpscwc_solutions_features_page') );
 
 		// Register plugin premium page
-		add_submenu_page( 'wcpscwc-about', __('Upgrade To PRO - Woo Product Slider', 'woo-product-slider-and-carousel-with-category'), '<span style="color:#ff2700">'.__('Upgrade To PRO - Try Pro For 5 Days Free', 'woo-product-slider-and-carousel-with-category').'</span>', 'edit_posts', 'wcpscwc-premium', array($this, 'wcpscwc_premium_page') );
+		add_submenu_page( 'wcpscwc-about', __('Upgrade To PRO - Woo Product Slider', 'woo-product-slider-and-carousel-with-category'), '<span style="color:#ff2700">'.__('Upgrade To PRO – Early Back Friday Deals', 'woo-product-slider-and-carousel-with-category').'</span>', 'edit_posts', 'wcpscwc-premium', array($this, 'wcpscwc_premium_page') );
 	}
 
 	/**

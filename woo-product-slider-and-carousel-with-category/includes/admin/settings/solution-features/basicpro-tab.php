@@ -28,16 +28,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wcpscwc-deal-offer-wrap">
+	<!-- <div class="wcpscwc-deal-offer-wrap">
 		<div class="wcpscwc-deal-offer"> 
 			<div class="wcpscwc-inn-deal-offer">
 				<h3 class="wcpscwc-inn-deal-hedding"><span>Try Woo Product Slider</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wcpscwc-deal-free-offer">
-				<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wcpscwc-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wcpscwc-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wcpscwc-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 style="text-align:center">Compare <span class="wcpscwc-blue">"Woo Product Slider"</span> Free VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -191,15 +197,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wcpscwc-deal-offer-wrap">
+	<!-- <div class="wcpscwc-deal-offer-wrap">
 		<div class="wcpscwc-deal-offer"> 
 			<div class="wcpscwc-inn-deal-offer">
 				<h3 class="wcpscwc-inn-deal-hedding"><span>Try Woo Product Slider</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wcpscwc-deal-free-offer">
-				<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wcpscwc-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wcpscwc-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wcpscwc-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

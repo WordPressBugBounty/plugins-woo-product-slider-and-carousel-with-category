@@ -7,8 +7,8 @@
  * Text Domain: woo-product-slider-and-carousel-with-category
  * Domain Path: /languages/
  * Requires Plugins: woocommerce
- * WC tested up to: 8.7.0
- * Version: 3.0
+ * WC tested up to: 9.3.3
+ * Version: 3.0.1
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/woo-product-slider-carousel-category/
  *
  * @package Product Slider and Carousel with Category for WooCommerce
@@ -20,7 +20,7 @@ if( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WCPSCWC_VERSION' ) ) {
-	define( 'WCPSCWC_VERSION', '3.0' ); // Version of plugin
+	define( 'WCPSCWC_VERSION', '3.0.1' ); // Version of plugin
 }
 
 if( ! defined( 'WCPSCWC_NAME' ) ) {
@@ -56,15 +56,15 @@ if( ! defined( 'WCPSCWC_SITE_LINK' ) ) {
 }
 
 if( ! defined( 'WCPSCWC_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WCPSCWC_PLUGIN_LINK_UPGRADE', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Product-Slider&utm_campaign=Upgrade-PRO'); // Plugin link
+	define('WCPSCWC_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Product-Slider&utm_campaign=Upgrade-PRO'); // Plugin link
 }
 
 if( ! defined( 'WCPSCWC_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WCPSCWC_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Product-Slider&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WCPSCWC_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Product-Slider&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WCPSCWC_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WCPSCWC_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Product-Slider&utm_campaign=Features-PRO'); // Plugin link
+	define('WCPSCWC_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Product-Slider&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

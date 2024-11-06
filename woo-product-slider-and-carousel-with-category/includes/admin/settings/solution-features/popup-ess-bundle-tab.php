@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wcpscwc_unlock_tabs" class="wcpscwc-vtab-cnt wcpscwc_unlock_tabs wcpscwc-clearfix">
+	
+	<div class="wcpscwc-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<h2 style="font-size: 24px; text-align: center; color: #6c63ff;">Bundle Deal Details</h2>
 	
 	<table class="wpos-plugin-list">
@@ -86,11 +91,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</thead>
 	</table>
 
-	<div class="wcpscwc-favourite-section">
+	<!-- <div class="wcpscwc-favourite-section">
 		<h3 class="wcpscwc-blue wcpscwc-favourite-heading">Use Essential Plugin Bundle</h3>
 		<h1 class="wcpscwc-favourite-sub-heading">With Your Favourite Page Builders</h1>
-		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php echo esc_url( WCPSCWC_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
-	</div>
+		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php //echo esc_url( WCPSCWC_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
+	</div> -->
 
 	<!-- <div class="wcpscwc-deal-offer-wrap">
 		<div class="wcpscwc-deal-offer"> 
@@ -106,15 +111,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wcpscwc-deal-offer-wrap">
+	<!-- <div class="wcpscwc-deal-offer-wrap">
 		<div class="wcpscwc-deal-offer"> 
 			<div class="wcpscwc-inn-deal-offer">
 				<h3 class="wcpscwc-inn-deal-hedding"><span>Try Woo Product Slider</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wcpscwc-deal-free-offer">
-				<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wcpscwc-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wcpscwc-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
 	</div>
-
+ -->
 </div>
