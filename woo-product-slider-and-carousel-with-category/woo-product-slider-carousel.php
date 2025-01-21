@@ -7,8 +7,8 @@
  * Text Domain: woo-product-slider-and-carousel-with-category
  * Domain Path: /languages/
  * Requires Plugins: woocommerce
- * WC tested up to: 9.3.3
- * Version: 3.0.1
+ * WC tested up to: 9.6.0
+ * Version: 3.0.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/woo-product-slider-carousel-category/
  *
  * @package Product Slider and Carousel with Category for WooCommerce
@@ -20,7 +20,7 @@ if( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WCPSCWC_VERSION' ) ) {
-	define( 'WCPSCWC_VERSION', '3.0.1' ); // Version of plugin
+	define( 'WCPSCWC_VERSION', '3.0.2' ); // Version of plugin
 }
 
 if( ! defined( 'WCPSCWC_NAME' ) ) {

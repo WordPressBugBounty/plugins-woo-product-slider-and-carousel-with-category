@@ -2,9 +2,9 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, ridhimashukla, patelketan
 Tags: best selling products slider by category, featured product slider by category, best product slider for woo shop, responsive product contents slider and carousel for woo, woo best selling responsive products slider
 Requires at least: 4.7
-WC tested up to: 9.3.3
-Tested up to: 6.6.2
-Stable tag: 3.0.1
+WC tested up to: 9.6.0
+Tested up to: 6.7.1
+Stable tag: 3.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -177,6 +177,10 @@ slider_cls="products" (This parameter target the WooCommerce default class for p
 4. Shortcodes
 
 == Changelog ==
+
+= 3.0.2 (21, January 2025) =
+* [*] Check compatibility to WordPress version 6.7.1
+* [*] Check compatibility to WooCommerce version 9.6.0
 
 = 3.0.1 (06, Nov 2024) =
 * [*] Check compatibility to WordPress version 6.6.2

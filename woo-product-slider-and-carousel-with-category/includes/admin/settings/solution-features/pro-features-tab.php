@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wcpscwc_themes_tabs" class="wcpscwc-vtab-cnt wcpscwc_themes_tabs wcpscwc-clearfix">
 	
-	<div class="wcpscwc-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wcpscwc-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php // echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<!-- Start - WP News and Scrolling Widgets - Features -->
 	<div class="wcpscwc-features-section">
@@ -82,8 +82,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wcpscwc-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wcpscwc-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WCPSCWC_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php // echo esc_url( WCPSCWC_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 </div>

@@ -34,10 +34,10 @@ class Wcpscwc_Admin {
 		add_menu_page( __('Woo - Product Slider', 'woo-product-slider-and-carousel-with-category'), __('Woo - Product Slider', 'woo-product-slider-and-carousel-with-category'), 'manage_options', 'wcpscwc-about', array($this, 'wcpscwc_designs_page'), 'dashicons-slides', 56 );
 
 		// Setting page
-		add_submenu_page( 'wcpscwc-about', __('Solutions & Features - Woo - Product Slider/Carousel', 'woo-product-slider-and-carousel-with-category'), '<span style="color:#2ECC71">'. __('Solutions & Features', 'woo-product-slider-and-carousel-with-category').'</span>', 'manage_options', 'wcpscwc-solutions-features', array($this, 'wcpscwc_solutions_features_page') );
+		add_submenu_page( 'wcpscwc-about', __('Overview - Woo - Product Slider/Carousel', 'woo-product-slider-and-carousel-with-category'), __('Overview', 'woo-product-slider-and-carousel-with-category'), 'manage_options', 'wcpscwc-solutions-features', array($this, 'wcpscwc_solutions_features_page') );
 
 		// Register plugin premium page
-		add_submenu_page( 'wcpscwc-about', __('Upgrade To PRO - Woo Product Slider', 'woo-product-slider-and-carousel-with-category'), '<span style="color:#ff2700">'.__('Upgrade To PRO – Early Back Friday Deals', 'woo-product-slider-and-carousel-with-category').'</span>', 'edit_posts', 'wcpscwc-premium', array($this, 'wcpscwc_premium_page') );
+		add_submenu_page( 'wcpscwc-about', __('Upgrade To PRO - Woo Product Slider', 'woo-product-slider-and-carousel-with-category'), '<span style="color:#2ECC71">'.__('Upgrade To PRO', 'woo-product-slider-and-carousel-with-category').'</span>', 'edit_posts', 'wcpscwc-premium', array($this, 'wcpscwc_premium_page') );
 	}
 
 	/**
