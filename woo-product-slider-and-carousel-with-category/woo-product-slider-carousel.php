@@ -3,13 +3,13 @@
  * Plugin Name: Product Slider and Carousel with Category for WooCommerce
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/woo-product-slider-carousel-category/
  * Description: Display Woocommerce Product Slider/Carousel, Woocommerce Best Selling Product Slider/Carousel, Woocommerce Featured Product Slider/Carousel with category. Also work with Gutenberg shortcode block.
- * Author: WP OnlineSupport, Essential Plugin
+ * Author: Essential Plugin
  * Text Domain: woo-product-slider-and-carousel-with-category
  * Domain Path: /languages/
  * Requires Plugins: woocommerce
  * WC tested up to: 9.6.0
- * Version: 3.0.2
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/woo-product-slider-carousel-category/
+ * Version: 3.0.3
+ * Author URI: https://www.essentialplugin.com
  *
  * @package Product Slider and Carousel with Category for WooCommerce
  * @author Essential Plugin
@@ -20,7 +20,7 @@ if( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WCPSCWC_VERSION' ) ) {
-	define( 'WCPSCWC_VERSION', '3.0.2' ); // Version of plugin
+	define( 'WCPSCWC_VERSION', '3.0.3' ); // Version of plugin
 }
 
 if( ! defined( 'WCPSCWC_NAME' ) ) {
@@ -38,18 +38,6 @@ if( ! defined( 'WCPSCWC_URL' ) ) {
 if( ! defined( 'WCPSCWC_POST_TYPE' ) ) {
     define( 'WCPSCWC_POST_TYPE', 'product' ); // Plugin post type
 }
-
-// if( ! defined( 'WCPSCWC_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define('WCPSCWC_PLUGIN_BUNDLE_LINK','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Product-Slider&utm_campaign=Welcome-Screen'); // Plugin link
-// }
-
-// if( ! defined( 'WCPSCWC_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WCPSCWC_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/wordpress-plugin/woo-product-slider-carousel-category/?utm_source=WP&utm_medium=Product-Slider&utm_campaign=Features-PRO#wpos-epb'); // Plugin link
-// }
-
-// if( ! defined( 'WCPSCWC_PLUGIN_LINK_UPGRADE' ) ) {
-// 	define('WCPSCWC_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Product-Slider&utm_campaign=Upgrade-PRO#wpos-epb'); // Plugin Check link
-// }
 
 if( ! defined( 'WCPSCWC_SITE_LINK' ) ) {
 	define( 'WCPSCWC_SITE_LINK', 'https://www.essentialplugin.com' ); // Plugin link

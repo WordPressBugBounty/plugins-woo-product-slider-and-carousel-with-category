@@ -23,7 +23,7 @@ function wcpscwc_bestselling_products_slider( $atts, $content ) {
 	$result			= wcpscwc_product_slider( $atts, $content );
 
 	if( is_user_logged_in() && current_user_can('manage_options') ) {
-		$notice = '<div class="wcpscwc-deprecated">'.sprintf( __('This shortcode is deprecated since version 2.5 and will be removed in future. Kindly use <b>wcpscwc_pdt_slider</b> for slider shortcode instead of this or check plugin <a href="%s" target="_blank">documentation</a> for more help.', 'woo-product-slider-and-carousel-with-category'), 'https://docs.wponlinesupport.com/woo-product-slider-and-carousel-with-category/' ).'</div>';
+		$notice = '<div class="wcpscwc-deprecated">'.sprintf( __('This shortcode is deprecated since version 2.5 and will be removed in future. Kindly use <b>wcpscwc_pdt_slider</b> for slider shortcode instead of this or check plugin <a href="%s" target="_blank">documentation</a> for more help.', 'woo-product-slider-and-carousel-with-category'), 'https://docs.essentialplugin.com/woo-product-slider-and-carousel-with-category/' ).'</div>';
 		return $notice . $result; // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped
 	}
 
